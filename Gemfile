@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.2.4'
+gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
 
 group :doc do
 	gem 'sdoc', '~> 0.4.0'     

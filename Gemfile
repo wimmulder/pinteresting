@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.1.4'
 
 gem 'rails', '4.1.4'
 gem 'sass-rails', '~> 4.0.3'
@@ -17,19 +17,15 @@ gem 'aws-sdk', '~>1.20.0'
 gem 'masonry-rails', '~> 0.2.0'
 
 group :doc do
-	gem 'sdoc', '~> 0.4.0'     
-end     
+	gem 'sdoc', '~> 0.4.0'
+end
 
-group :production do 
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
 
 group :development, :test do
-	gem 'spring'        
-	gem 'sqlite3'	
+	gem 'spring'
+	gem 'sqlite3'
 end
-
-
-
-
